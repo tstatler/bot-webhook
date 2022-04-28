@@ -47,6 +47,11 @@ framework.hears('hello', function(bot, trigger) {
   responded = true;
 });
 
+framework.hears('goodbye', function(bot, trigger) {
+    bot.say('Good bye %s!', trigger.person.displayName);
+    responded = true;
+});
+
 // Its a good practice to handle unexpected input
 framework.hears(/.*/gim, function(bot, trigger) {
   if (!responded) {
