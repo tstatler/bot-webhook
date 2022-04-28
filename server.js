@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 var config = {
   webhookUrl: 'https://tstatler-webex-bot.herokuapp.com/framework',
   token: 'ODFjMzk1ZDMtMTNmNi00YWNkLTk3ODUtYjIyM2I1NzI0MTBmMWU5OGE3MzctODI1_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f',
-  port: 80
+  port: process.env.PORT
 };
 
 // init framework
