@@ -1,0 +1,9 @@
+{
+    "name": "Webex Node Bot Framework example",
+    "description": "Create a simple Webex chat bot service using the Node Bot Framework",
+    "env": {
+        "BOT_API_TOKEN": {
+          "description": "Bot API Access Token"
+        }
+      }
+}
